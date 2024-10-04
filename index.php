@@ -11,7 +11,7 @@
             if ($type != 'o') $type = 'u';
             $lista = '<'.$type.'l>';
             for ($i = 1; $i <= $num; $i++) {
-                if ($i%5==0) {
+                if ($i%5==0 || $i%2==0) {
                     $lista .= '<li>' . $i . '</li>';
                 }
             }
